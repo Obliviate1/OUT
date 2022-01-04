@@ -70,6 +70,7 @@ server=/*.mi.com/119.29.29.29
 
 
 [policy]
+static= 🇺🇳 Final,🇭🇰️ 香港, 🇨🇳 台湾, 🇸🇬 新加坡, 🇯🇵 日本, 🇺🇸 美国, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 static= 🇭🇰️ 香港, server-tag-regex= 香港|🇭🇰️|HK|Hong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 static= 🇨🇳 台湾, server-tag-regex= 台湾|🇨🇳|TW|TaiWan, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/CN.png
 static= 🇸🇬 新加坡, server-tag-regex= 新加坡|🇸🇬|SG|Singapore, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
@@ -110,7 +111,7 @@ ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 # GeoIP China(若启用，则禁用 ChinaIP.list)
 geoip, cn, direct
-final, proxy
+final, 🇺🇳 Final
 
 [rewrite_local]
 # [rewrite_local] 完整示例请查看「示例」

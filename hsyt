@@ -1,0 +1,8 @@
+#!name=羊驼
+#!desc=喝水
+
+[Script]
+hsyt = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Crazy-Z7/Scrip/main/hsyt.js
+
+[MITM]
+hostname= %APPEND% buy.itunes.apple.com

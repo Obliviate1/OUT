@@ -1,0 +1,11 @@
+#!name = NovaXNS-DoH-Remote
+#!desc = 使用 NovaXNS DNS-over-HTTPS (DoH)
+
+[General]
+doh-follow-outbound-mode = false
+allow-dns-svcb = false
+dns-server = 119.29.29.29, 223.5.5.5
+encrypted-dns-server = h3://hk.pro.xns.one/zdwANDnzCk8/iPhone/dns-query, h3://hk1.pro.xns.one/zdwANDnzCk8/iPhone/dns-query, h3://hk.kahkee.xns.one/zdwANDnzCk8/iPhone/dns-query
+
+[Host]
+miwifi.com = 192.168.31.1

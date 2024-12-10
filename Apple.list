@@ -7,8 +7,8 @@ DOMAIN,appleid.cdn-apple.com
 DOMAIN,gsa.apple.com
 DOMAIN,idmsa.apple.com
 # ApplePush
-DOMAIN-SUFFIX push-apple.com.akadns.net
-DOMAIN-SUFFIX push.apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
 # AppleMail
 DOMAIN-SUFFIX,mail.icloud.com.cn
 DOMAIN-SUFFIX,mail.me.com
@@ -251,5 +251,5 @@ DOMAIN-SUFFIX,simplyipod.com
 DOMAIN-SUFFIX,ukipad.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwmacbookair.com
-PROCESS-NAME trustd
-PROCESS-NAME netbiosd
+PROCESS-NAME,trustd
+PROCESS-NAME,netbiosd
